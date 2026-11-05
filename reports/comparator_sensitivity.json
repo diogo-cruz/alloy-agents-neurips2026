@@ -1,0 +1,42 @@
+[
+ {
+  "comparator": "canonical, pooled C1+C2+C3 (as used in the paper)",
+  "gem_both": 44.1,
+  "gem_n": 143,
+  "delta": 24.2,
+  "lo": 6.6,
+  "hi": 42.9,
+  "n_tasks": 20,
+  "significant": true
+ },
+ {
+  "comparator": "canonical, C2 only (protocol-matched to GPT/Grok)",
+  "gem_both": 57.1,
+  "gem_n": 21,
+  "delta": 9.2,
+  "lo": -11.4,
+  "hi": 30.8,
+  "n_tasks": 20,
+  "significant": false
+ },
+ {
+  "comparator": "fresh replication only (OpenRouter, Jul 2026)",
+  "gem_both": 61.6,
+  "gem_n": 99,
+  "delta": 7.2,
+  "lo": -9.5,
+  "hi": 24.0,
+  "n_tasks": 20,
+  "significant": false
+ },
+ {
+  "comparator": "ALL Gemini episodes (canonical + replication)",
+  "gem_both": 51.2,
+  "gem_n": 242,
+  "delta": 17.4,
+  "lo": 1.4,
+  "hi": 33.7,
+  "n_tasks": 20,
+  "significant": true
+ }
+]

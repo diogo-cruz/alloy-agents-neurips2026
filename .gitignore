@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.env
+# raw Inspect logs are not part of the release (see README)
+logs/
+traces/
+*.eval
+# outputs of the figure scripts
+figures/*.pdf
+figures/*.png

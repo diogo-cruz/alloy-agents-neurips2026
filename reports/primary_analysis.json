@@ -1,0 +1,118 @@
+{
+ "inclusion_robustness": [
+  {
+   "rule": "canonical pool (all reasoning-matched runs)",
+   "point": 23.3,
+   "lo": 5.2,
+   "hi": 42.3,
+   "n_tasks": 20
+  },
+  {
+   "rule": "date-matched: 2026-03-14 only",
+   "point": 28.0,
+   "lo": 10.0,
+   "hi": 48.0,
+   "n_tasks": 20
+  },
+  {
+   "rule": "single largest eval file per config",
+   "point": 30.0,
+   "lo": 10.0,
+   "hi": 50.0,
+   "n_tasks": 20
+  }
+ ],
+ "hierarchical": [
+  {
+   "setting": "bash",
+   "alloy": "GPT+Gemini",
+   "sig": true,
+   "point": 23.3,
+   "lo": 5.4,
+   "hi": 42.3,
+   "n_tasks": 20
+  },
+  {
+   "setting": "bash",
+   "alloy": "GPT+Grok",
+   "sig": false,
+   "point": -10.5,
+   "lo": -36.8,
+   "hi": 15.8,
+   "n_tasks": 19
+  },
+  {
+   "setting": "bash",
+   "alloy": "Gemini+Grok",
+   "sig": false,
+   "point": 10.0,
+   "lo": -14.3,
+   "hi": 33.6,
+   "n_tasks": 20
+  },
+  {
+   "setting": "iac_fast",
+   "alloy": "GPT+Gemini",
+   "sig": false,
+   "point": 4.2,
+   "lo": -16.8,
+   "hi": 25.5,
+   "n_tasks": 5
+  },
+  {
+   "setting": "iac_fast",
+   "alloy": "GPT+Grok",
+   "sig": false,
+   "point": -4.8,
+   "lo": -33.3,
+   "hi": 18.5,
+   "n_tasks": 3
+  },
+  {
+   "setting": "iac_fast",
+   "alloy": "Gemini+Grok",
+   "sig": false,
+   "point": 4.5,
+   "lo": -16.2,
+   "hi": 27.1,
+   "n_tasks": 5
+  },
+  {
+   "setting": "bash_arena",
+   "alloy": "GPT+Gemini",
+   "sig": false,
+   "point": -5.3,
+   "lo": -15.5,
+   "hi": 4.6,
+   "n_tasks": 19
+  },
+  {
+   "setting": "bash_arena",
+   "alloy": "GPT+Grok",
+   "sig": false,
+   "point": 2.4,
+   "lo": -6.6,
+   "hi": 12.8,
+   "n_tasks": 17
+  },
+  {
+   "setting": "bash_arena",
+   "alloy": "Gemini+Grok",
+   "sig": false,
+   "point": 4.2,
+   "lo": -4.9,
+   "hi": 14.3,
+   "n_tasks": 19
+  }
+ ],
+ "mixed_effects": {
+  "beta_alloy": 2.2,
+  "odds_ratio": 9.03,
+  "task_sd": 2.0,
+  "lr_stat": 24.04,
+  "p_value": 9.456529174398239e-07,
+  "n_episodes": 213,
+  "n_tasks": 20,
+  "note": "Combined success (binary) ~ alloy + (1|task); comparator = both solos pooled."
+ }
+}

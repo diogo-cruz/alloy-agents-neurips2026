@@ -1,0 +1,74 @@
+[
+ {
+  "setting": "bash",
+  "alloy": "GPT+Gemini-Lite",
+  "point": 23.3,
+  "lo": 5.0,
+  "hi": 42.6,
+  "n_tasks": 20
+ },
+ {
+  "setting": "bash",
+  "alloy": "GPT+Grok",
+  "point": -10.5,
+  "lo": -36.8,
+  "hi": 15.8,
+  "n_tasks": 19
+ },
+ {
+  "setting": "bash",
+  "alloy": "Gemini-Lite+Grok",
+  "point": 10.0,
+  "lo": -13.6,
+  "hi": 33.6,
+  "n_tasks": 20
+ },
+ {
+  "setting": "iac_fast",
+  "alloy": "GPT+Gemini-Lite",
+  "point": -8.1,
+  "lo": -28.4,
+  "hi": 9.6,
+  "n_tasks": 3
+ },
+ {
+  "setting": "iac_fast",
+  "alloy": "GPT+Grok",
+  "point": -4.8,
+  "lo": -33.3,
+  "hi": 18.5,
+  "n_tasks": 3
+ },
+ {
+  "setting": "iac_fast",
+  "alloy": "Gemini-Lite+Grok",
+  "point": -5.0,
+  "lo": -27.7,
+  "hi": 17.4,
+  "n_tasks": 3
+ },
+ {
+  "setting": "bash_arena",
+  "alloy": "GPT+Gemini-Lite",
+  "point": -6.3,
+  "lo": -17.2,
+  "hi": 4.4,
+  "n_tasks": 17
+ },
+ {
+  "setting": "bash_arena",
+  "alloy": "GPT+Grok",
+  "point": 4.4,
+  "lo": -7.9,
+  "hi": 21.1,
+  "n_tasks": 7
+ },
+ {
+  "setting": "bash_arena",
+  "alloy": "Gemini-Lite+Grok",
+  "point": -2.7,
+  "lo": -15.6,
+  "hi": 9.7,
+  "n_tasks": 7
+ }
+]

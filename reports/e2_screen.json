@@ -1,0 +1,101 @@
+{
+ "candidates": {
+  "openai/gpt-6-luna": {
+   "price": 0.1,
+   "provider": "openai",
+   "main": 0.9,
+   "side": 0.0,
+   "combined": 0.0,
+   "n": 20,
+   "n_err": 0,
+   "err_rate": 0.0,
+   "api_models": [
+    "openai/gpt-6-luna"
+   ]
+  },
+  "anthropic/claude-haiku-5.5": {
+   "price": 0.1,
+   "provider": "anthropic",
+   "main": 0.85,
+   "side": 0.0,
+   "combined": 0.0,
+   "n": 20,
+   "n_err": 0,
+   "err_rate": 0.0,
+   "api_models": [
+    "anthropic/claude-haiku-5.5"
+   ]
+  },
+  "google/gemini-3.5-flash-lite": {
+   "price": 0.3,
+   "provider": "google",
+   "main": 0.7,
+   "side": 0.95,
+   "combined": 0.65,
+   "n": 20,
+   "n_err": 0,
+   "err_rate": 0.0,
+   "api_models": [
+    "google/gemini-3.5-flash-lite"
+   ]
+  },
+  "qwen/qwen3.8-flash": {
+   "price": 0.15,
+   "provider": "qwen",
+   "main": 1.0,
+   "side": 0.6,
+   "combined": 0.6,
+   "n": 20,
+   "n_err": 0,
+   "err_rate": 0.0,
+   "api_models": [
+    "qwen/qwen3.8-flash"
+   ]
+  },
+  "deepseek/deepseek-v4.1-flash": {
+   "price": 0.3,
+   "provider": "deepseek",
+   "main": 0.95,
+   "side": 0.3,
+   "combined": 0.3,
+   "n": 20,
+   "n_err": 0,
+   "err_rate": 0.0,
+   "api_models": [
+    "deepseek/deepseek-v4.1-flash"
+   ]
+  },
+  "mistralai/mistral-small-2603": {
+   "price": 0.15,
+   "provider": "mistralai",
+   "main": 0.0,
+   "side": 0.1,
+   "combined": 0.0,
+   "n": 20,
+   "n_err": 0,
+   "err_rate": 0.0,
+   "api_models": [
+    "mistralai/mistral-small-2603",
+    "openrouter/mistralai/mistral-small-2603"
+   ]
+  },
+  "z-ai/glm-5.3-flash": {
+   "price": 0.15,
+   "provider": "z-ai",
+   "main": 1.0,
+   "side": 0.65,
+   "combined": 0.65,
+   "n": 20,
+   "n_err": 0,
+   "err_rate": 0.0,
+   "api_models": [
+    "z-ai/glm-5.3-flash"
+   ]
+  }
+ },
+ "selected": {
+  "A": "openai/gpt-6-luna",
+  "B": "google/gemini-3.5-flash-lite"
+ },
+ "notes": []
+}

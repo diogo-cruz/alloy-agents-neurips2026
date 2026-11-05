@@ -1,0 +1,107 @@
+{
+ "run": "phase2_100task_bash_aug2026",
+ "route": "openrouter_single_route_all_arms",
+ "arms": {
+  "alloy": {
+   "n_scored": 97,
+   "n_errored": 3,
+   "n_tasks": 97,
+   "main": 0.8041,
+   "side": 0.6804,
+   "combined": 0.5773,
+   "api_models": [
+    "google/gemini-3.1-flash-lite-preview",
+    "openai/gpt-5-mini",
+    "openrouter/openai/gpt-5-mini"
+   ],
+   "tokens": {
+    "openrouter/openai/gpt-5-mini": {
+     "input": 1192078,
+     "output": 454630,
+     "cache_read": 3446144
+    },
+    "openrouter/google/gemini-3.1-flash-lite-preview": {
+     "input": 2371983,
+     "output": 154409,
+     "cache_read": 2553555
+    }
+   },
+   "files": [
+    "2026-08-03T08-46-26+00-00_bash-untrusted-policy-attack-250024a3_MuJHkWULxdi54gLqfvHjb8.eval"
+   ]
+  },
+  "gpt": {
+   "n_scored": 96,
+   "n_errored": 4,
+   "n_tasks": 96,
+   "main": 0.875,
+   "side": 0.0,
+   "combined": 0.0,
+   "api_models": [
+    "openai/gpt-5-mini",
+    "openrouter/openai/gpt-5-mini"
+   ],
+   "tokens": {
+    "openrouter/openai/gpt-5-mini": {
+     "input": 1275755,
+     "output": 671717,
+     "cache_read": 6038784
+    }
+   },
+   "files": [
+    "2026-08-03T08-46-29+00-00_bash-untrusted-policy-attack-3e6d9353_b8GG7NCLW9RcwpwxLqBnus.eval"
+   ]
+  },
+  "gemini": {
+   "n_scored": 98,
+   "n_errored": 2,
+   "n_tasks": 98,
+   "main": 0.5408,
+   "side": 0.9592,
+   "combined": 0.5204,
+   "api_models": [
+    "google/gemini-3.1-flash-lite-preview",
+    "openrouter/google/gemini-3.1-flash-lite-preview"
+   ],
+   "tokens": {
+    "openrouter/google/gemini-3.1-flash-lite-preview": {
+     "input": 2896908,
+     "output": 184333,
+     "cache_read": 1536978
+    }
+   },
+   "files": [
+    "2026-08-03T08-46-44+00-00_bash-untrusted-policy-attack-2e47827f_TJLCPAWnpHJ96cZKnm6xZy.eval"
+   ]
+  }
+ },
+ "task_alignment": "task ids differ across arms; union sizes [97, 96, 98], intersection 96",
+ "hierarchical_bootstrap": {
+  "point": 5.2,
+  "lo": -6.2,
+  "hi": 16.5,
+  "n_tasks": 97,
+  "width": 22.7
+ },
+ "task_only_bootstrap": {
+  "point": 5.2,
+  "lo": -6.2,
+  "hi": 16.5,
+  "n_tasks": 97,
+  "width": 22.7
+ },
+ "table_f_row": {
+  "label": "Fresh 100-task run (Aug 2026, single route)",
+  "delta_pp": 5.2,
+  "ci": [
+   -6.2,
+   16.5
+  ],
+  "n_tasks": 97
+ },
+ "cost_usd": 1.64,
+ "cost_note": "priced from openrouter.ai/api/v1/models at analysis time",
+ "headline": "On the fresh 100-task run, the alloy minus best-solo delta on combined success is +5pp with 95% CI [-6,+16] over 97 tasks; the CI includes zero.",
+ "bootstrap_replicates": 20000,
+ "seed": 20260803
+}

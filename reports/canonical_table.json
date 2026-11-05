@@ -1,0 +1,314 @@
+{
+ "bash": {
+  "GPT": {
+   "n": 21,
+   "side_k": 0,
+   "side_ci": [
+    0.0,
+    16.1
+   ],
+   "main_k": 21,
+   "main_ci": [
+    83.9,
+    100.0
+   ],
+   "combined_k": 0,
+   "combined_ci": [
+    0.0,
+    16.1
+   ]
+  },
+  "Gemini-Lite": {
+   "n": 143,
+   "side_k": 136,
+   "side_ci": [
+    90.2,
+    98.0
+   ],
+   "main_k": 69,
+   "main_ci": [
+    39.8,
+    56.8
+   ],
+   "combined_k": 63,
+   "combined_ci": [
+    35.8,
+    52.6
+   ]
+  },
+  "Grok": {
+   "n": 21,
+   "side_k": 15,
+   "side_ci": [
+    47.8,
+    88.7
+   ],
+   "main_k": 16,
+   "main_ci": [
+    52.8,
+    91.8
+   ],
+   "combined_k": 11,
+   "combined_ci": [
+    29.8,
+    74.3
+   ]
+  },
+  "GPT+Gemini-Lite": {
+   "n": 49,
+   "side_k": 39,
+   "side_ci": [
+    65.7,
+    89.8
+   ],
+   "main_k": 43,
+   "main_ci": [
+    75.2,
+    95.4
+   ],
+   "combined_k": 35,
+   "combined_ci": [
+    56.7,
+    83.4
+   ],
+   "side_fisher_p_vs_A": 1.1506906079109065e-10,
+   "side_fisher_p_vs_B": 0.9995958670366134
+  },
+  "GPT+Grok": {
+   "n": 19,
+   "side_k": 8,
+   "side_ci": [
+    20.3,
+    66.5
+   ],
+   "main_k": 18,
+   "main_ci": [
+    74.0,
+    99.9
+   ],
+   "combined_k": 8,
+   "combined_ci": [
+    20.3,
+    66.5
+   ],
+   "side_fisher_p_vs_A": 0.0009828009828009828,
+   "side_fisher_p_vs_B": 0.9864307689224263
+  },
+  "Gemini-Lite+Grok": {
+   "n": 20,
+   "side_k": 20,
+   "side_ci": [
+    83.2,
+    100.0
+   ],
+   "main_k": 16,
+   "main_ci": [
+    56.3,
+    94.3
+   ],
+   "combined_k": 16,
+   "combined_ci": [
+    56.3,
+    94.3
+   ],
+   "side_fisher_p_vs_A": 0.39263014704714666,
+   "side_fisher_p_vs_B": 0.012068353531768166
+  }
+ },
+ "iac_fast": {
+  "GPT": {
+   "n": 25,
+   "side_k": 9,
+   "side_ci": [
+    18.0,
+    57.5
+   ],
+   "main_k": 19,
+   "main_ci": [
+    54.9,
+    90.6
+   ],
+   "combined_k": 8,
+   "combined_ci": [
+    14.9,
+    53.5
+   ]
+  },
+  "Gemini-Lite": {
+   "n": 105,
+   "side_k": 48,
+   "side_ci": [
+    36.0,
+    55.7
+   ],
+   "main_k": 61,
+   "main_ci": [
+    48.1,
+    67.7
+   ],
+   "combined_k": 32,
+   "combined_ci": [
+    21.9,
+    40.2
+   ]
+  },
+  "Grok": {
+   "n": 25,
+   "side_k": 8,
+   "side_ci": [
+    14.9,
+    53.5
+   ],
+   "main_k": 9,
+   "main_ci": [
+    18.0,
+    57.5
+   ],
+   "combined_k": 6,
+   "combined_ci": [
+    9.4,
+    45.1
+   ]
+  },
+  "GPT+Gemini-Lite": {
+   "n": 80,
+   "side_k": 38,
+   "side_ci": [
+    36.2,
+    59.0
+   ],
+   "main_k": 54,
+   "main_ci": [
+    56.1,
+    77.6
+   ],
+   "combined_k": 27,
+   "combined_ci": [
+    23.6,
+    45.2
+   ],
+   "side_fisher_p_vs_A": 0.21874206997708004,
+   "side_fisher_p_vs_B": 0.4629899219636123
+  },
+  "GPT+Grok": {
+   "n": 44,
+   "side_k": 17,
+   "side_ci": [
+    24.4,
+    54.5
+   ],
+   "main_k": 18,
+   "main_ci": [
+    26.3,
+    56.8
+   ],
+   "combined_k": 12,
+   "combined_ci": [
+    15.0,
+    42.8
+   ],
+   "side_fisher_p_vs_A": 0.5187823045195492,
+   "side_fisher_p_vs_B": 0.3882417753674209
+  },
+  "Gemini-Lite+Grok": {
+   "n": 45,
+   "side_k": 23,
+   "side_ci": [
+    35.8,
+    66.3
+   ],
+   "main_k": 18,
+   "main_ci": [
+    25.7,
+    55.7
+   ],
+   "combined_k": 15,
+   "combined_ci": [
+    20.0,
+    49.0
+   ],
+   "side_fisher_p_vs_A": 0.33399289671019733,
+   "side_fisher_p_vs_B": 0.09776338525310128
+  }
+ },
+ "bash_arena": {
+  "GPT": {
+   "n": 17,
+   "side_k": 9,
+   "side_ci": [
+    27.8,
+    77.0
+   ],
+   "main": 42.3,
+   "main_sem": 7.4,
+   "combined": 28.4,
+   "combined_sem": 8.1
+  },
+  "Gemini-Lite": {
+   "n": 75,
+   "side_k": 66,
+   "side_ci": [
+    78.4,
+    94.4
+   ],
+   "main": 20.5,
+   "main_sem": 2.7,
+   "combined": 19.4,
+   "combined_sem": 2.7
+  },
+  "Grok": {
+   "n": 7,
+   "side_k": 6,
+   "side_ci": [
+    42.1,
+    99.6
+   ],
+   "main": 33.4,
+   "main_sem": 11.1,
+   "combined": 33.4,
+   "combined_sem": 11.1
+  },
+  "GPT+Gemini-Lite": {
+   "n": 64,
+   "side_k": 45,
+   "side_ci": [
+    57.6,
+    81.1
+   ],
+   "main": 39.8,
+   "main_sem": 3.2,
+   "combined": 28.3,
+   "combined_sem": 3.3,
+   "side_fisher_p_vs_A": 0.14461373503278674,
+   "side_fisher_p_vs_B": 0.9975871877332332
+  },
+  "GPT+Grok": {
+   "n": 40,
+   "side_k": 37,
+   "side_ci": [
+    79.6,
+    98.4
+   ],
+   "main": 34.8,
+   "main_sem": 4.7,
+   "combined": 34.8,
+   "combined_sem": 4.7,
+   "side_fisher_p_vs_A": 0.0014087904665412267,
+   "side_fisher_p_vs_B": 0.48762369298909525
+  },
+  "Gemini-Lite+Grok": {
+   "n": 40,
+   "side_k": 38,
+   "side_ci": [
+    83.1,
+    99.4
+   ],
+   "main": 30.3,
+   "main_sem": 4.2,
+   "combined": 30.3,
+   "combined_sem": 4.2,
+   "side_fisher_p_vs_A": 0.19116776340815234,
+   "side_fisher_p_vs_B": 0.3906876349059512
+  }
+ }
+}
