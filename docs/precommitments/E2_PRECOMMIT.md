@@ -67,7 +67,7 @@ screen table and this rule. The paper's claims are scoped to tested pairs; this 
 to them.
 
 ## Addendum (2026-10-10, after the run)
-- **Stage 1** (19:47–19:56 UTC, $1.47): seven candidates, 20 runs each on tasks 100–119, no
+- **Stage 1** (18:47–19:56 UTC, $1.47; start time corrected on 2026-11-05 from a misread "19:47", per the launch record): seven candidates, 20 runs each on tasks 100–119, no
   errors. Main/side/combined %: gpt-6-luna 90/0/0, claude-haiku-5.5 85/0/0,
   gemini-3.5-flash-lite 70/95/65, qwen3.8-flash 100/60/60, deepseek-v4.1-flash 95/30/30,
   mistral-small-2603 0/10/0, glm-5.3-flash 100/65/65. The rule selected A = gpt-6-luna,
