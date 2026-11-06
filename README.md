@@ -21,8 +21,8 @@ This is a minimal release for reproducing the paper's central results. It contai
   new-pair experiment;
 - derived per-run results (scores and run metadata, no transcripts) and the analysis scripts
   for the main-text tables and figures (Table 1, Table 2, Figures 1–3) and for the appendix
-  tables the main text's inference rests on (`tab:clean_source`, `tab:bootstrap`), plus the
-  new-pair analyses defined in the precommitments;
+  tables the main text's inference and frontier counts rest on (`tab:clean_source`,
+  `tab:bootstrap`, `tab:convex_hull`), plus the new-pair analyses defined in the precommitments;
 - the analysis plans committed before the two camera-ready experiments ran
   (`docs/precommitments/`).
 
@@ -68,6 +68,7 @@ scripts read files that earlier ones write):
 ```bash
 uv run python scripts/primary_analysis.py
 uv run python scripts/canonical_table.py
+uv run python scripts/convex_hull_canonical.py
 uv run python scripts/bootstrap_common_tasks.py
 uv run python scripts/comparator_sensitivity.py
 uv run python scripts/analyze_phase2.py      # also prices tokens with OpenRouter's public list
@@ -93,6 +94,7 @@ prints Table 2's Bash rows, and the figures match the paper's.
 | Table 2 (`tab:audit`), Bash | `scripts/analyze_audit.py` | `data/derived_logs/audit_experiment/` |
 | Table 2, bash_arena | `scripts/analyze_e1_audit_bash_arena.py` | `data/derived_logs/camera_ready/e1_ba_*` |
 | `tab:clean_source` | `scripts/canonical_table.py` | `reports/trace_inventory.json` |
+| `tab:convex_hull` | `scripts/convex_hull_canonical.py` | `reports/canonical_table.json` |
 | `tab:bootstrap` | `scripts/bootstrap_common_tasks.py`; the Bash interval as first reported: `scripts/primary_analysis.py` | `reports/trace_inventory.json` |
 | New pair (`tab:newpair_screen`, `tab:newpair`) | `scripts/analyze_e2_screen.py`, `scripts/analyze_e2_main.py` | `data/derived_logs/camera_ready/e2_*` |
 

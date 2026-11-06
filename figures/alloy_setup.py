@@ -3,7 +3,7 @@
 Replaces the submitted alloy_setup.png, whose continuous-effort panel was illustrative and
 labelled "alloy is more dangerous". Every number here comes from the paper's tables:
   top right    scheming evals (tab:scheming_expanded): GPT 0/21, Gemini 4/15, alloy 1/15
-  bottom right Bash, 97 fresh tasks, Aug 2026 (reports/phase2_run.json):
+  bottom right Bash, fresh runs on the first 100 tasks, Aug 2026 (reports/phase2_run.json):
                GPT main 84/96 side 0/96 both 0/96; Gemini 53/98, 94/98, 51/98;
                alloy 78/97, 66/97, 56/97
 Whiskers are 95% Wilson intervals. Palette checked with the dataviz validator (light mode,
@@ -116,7 +116,7 @@ ax2.set_xticks(range(3), metrics)
 ax2.set_ylim(0, 118)
 ax2.set_yticks([0, 50, 100])
 ax2.set_ylabel("Runs (%)")
-ax2.set_title("Continuous-effort (Bash, 97 fresh tasks)", loc="left", color=INK)
+ax2.set_title("Continuous-effort (Bash, fresh runs on 100 tasks)", loc="left", color=INK)
 
 fig.legend(handles=[Patch(fc=GPT, label="GPT-5-mini solo"), Patch(fc=GEM, label="Gemini 3.1 Flash Lite solo"),
                     Patch(fc=ALLOY, label="GPT+Gemini alloy")],
